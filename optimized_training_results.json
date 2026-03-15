@@ -1,0 +1,76 @@
+{
+  "total_challenges": 10000,
+  "correct": 7284,
+  "accuracy": 0.7284,
+  "improvement": 0.47840000000000005,
+  "training_duration": 1754.7591831684113,
+  "training_duration_formatted": "0小时29分钟14秒",
+  "difficulty_progression": {
+    "easy": {
+      "count": 50,
+      "correct": 49,
+      "accuracy": 0.98
+    },
+    "medium": {
+      "count": 50,
+      "correct": 44,
+      "accuracy": 0.88
+    },
+    "hard": {
+      "count": 9900,
+      "correct": 7191,
+      "accuracy": 0.7263636363636363
+    }
+  },
+  "category_performance": {
+    "forensics": {
+      "correct": 1205,
+      "total": 1616,
+      "accuracy": 0.7456683168316832
+    },
+    "crypto": {
+      "correct": 1643,
+      "total": 2188,
+      "accuracy": 0.7509140767824497
+    },
+    "misc": {
+      "correct": 11,
+      "total": 11,
+      "accuracy": 1.0
+    },
+    "web": {
+      "correct": 1382,
+      "total": 1778,
+      "accuracy": 0.7772778402699663
+    },
+    "reverse": {
+      "correct": 1458,
+      "total": 2039,
+      "accuracy": 0.7150564001961746
+    },
+    "pwn": {
+      "correct": 1585,
+      "total": 2368,
+      "accuracy": 0.6693412162162162
+    }
+  },
+  "session_stats": {
+    "total_challenges": 10000,
+    "correct": 7284,
+    "categories": {
+      "forensics": 1616,
+      "crypto": 2188,
+      "misc": 11,
+      "web": 1778,
+      "reverse": 2039,
+      "pwn": 2368
+    },
+    "difficulties": {
+      "easy": 50,
+      "medium": 50,
+      "hard": 9900
+    }
+  },
+  "knowledge_base_size": 7284,
+  "final_difficulty": "hard"
+}
