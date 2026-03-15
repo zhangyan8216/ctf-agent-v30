@@ -1,0 +1,50 @@
+{
+  "training": {
+    "total_challenges": 10000,
+    "curriculum_learning": true,
+    "adaptive_difficulty": true,
+    "knowledge_update_interval": 10,
+    "min_accuracy_for_upgrade": 0.60,
+    "max_attempts_per_challenge": 3
+  },
+  "curriculum": {
+    "easy": {
+      "count": 2000,
+      "categories": ["crypto", "forensics", "web", "misc"]
+    },
+    "medium": {
+      "count": 4000,
+      "categories": ["crypto", "forensics", "web", "pwn", "reverse"]
+    },
+    "hard": {
+      "count": 4000,
+      "categories": ["crypto", "forensics", "web", "pwn", "reverse"]
+    }
+  },
+  "categories": {
+    "crypto": {
+      "weight": 1.2,
+      "techniques": ["RSA", "AES", "ECC", "hash", "padding-oracle", "cbc-bitflip", "discrete-log"]
+    },
+    "web": {
+      "weight": 1.0,
+      "techniques": ["sqli", "xss", "ssti", "xxe", "csrf", "rce", "file-upload"]
+    },
+    "pwn": {
+      "weight": 1.3,
+      "techniques": ["buffer-overflow", "rop", "ret2libc", "shellcode", "heap-overflow", "uaf", "format-string"]
+    },
+    "reverse": {
+      "weight": 1.1,
+      "techniques": ["static-analysis", "dynamic-analysis", "debugging", "anti-debug", "packer-analysis"]
+    },
+    "forensics": {
+      "weight": 0.9,
+      "techniques": ["memory-analysis", "pcap", "stego", "file-recovery", "malware-analysis"]
+    },
+    "misc": {
+      "weight": 0.8,
+      "techniques": ["osint", "misc", "coding", "qr-code", "encode-decode"]
+    }
+  }
+}
